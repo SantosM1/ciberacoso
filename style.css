@@ -1,0 +1,293 @@
+
+
+
+body {
+    
+    margin: 20px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+    background-color: #cacdce;
+}
+
+
+
+
+
+
+
+li {
+    margin: 10px;
+
+    text-align: center;
+    opacity: 0.8;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    flex: 0;
+    max-width: 50%;
+}
+
+
+
+
+
+
+
+/* cuerrrpooooo */
+.titulo{
+    margin: 80px;
+    margin-top: 200px;
+   
+    font-size: 30px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+.titulo h1{
+   padding-bottom: 30px;
+   font-family:  'Courgette';
+   font-size: 80px;
+}
+/* sectionnnn */
+
+.sec{
+    display: flex;
+    justify-content: space-around;
+    
+}
+section{
+    /* background-color: aqua; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    transition: 0.4s;
+}
+section img{
+    height: 300px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+
+
+
+
+.section2{
+    /* background-color: aqua; */
+    width: 95%;
+   
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.section2>.contact{
+    display: flex;
+    border: 1px solid ;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+    cursor: pointer;
+    flex: 1 0 50%;
+}
+.contact:hover{
+    background-color: #bbb4af4d;
+}
+.contact img{
+    height: 100px;
+    opacity: 0.6;
+    width: auto;
+    transition: 0.4s;
+}
+.contact:hover img{
+    height: 110px;
+    transition: 0.4s;
+}
+.texto{
+    font-family:sans-serif;
+    padding: 10px;
+   
+    font-style: italic;
+}
+
+
+
+
+
+
+/* foooterrrr */
+
+footer{
+    border: 2px solid;
+    border-radius: 60px,0,60px,0;
+    height: auto;
+    font-family: sans-serif;
+    width: 100%;
+    padding:5px 0px 0px 0px;
+    border-radius: 0 0 10px 10px;
+}
+.categorias>.listas,.categorias{
+   list-style: circle;
+   width: 100%;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listas> li{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+}
+
+
+
+.hijo1{
+    margin: 10px;
+/* background-color: #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    flex-flow: row wrap;
+    opacity: 0.8;
+   
+}
+.hijo1>div{
+    /* background-color: aquamarine; */
+    height: 300px;
+    margin: 0px;
+    flex: 1 1 25%;
+}
+.comentario {
+    padding: 10px;
+    /* background-color: #f9f9f9; */
+    font-size: 15px;
+}
+
+
+.hijo2{
+    height: auto;
+    border-radius: 0 0 10px 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+
+.hijo2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+@media(max-width:1025px) {
+    /* nav {
+        height: 140px;
+    } */
+    .titulo{
+        margin-top: 200px;
+    }
+  
+    .elementos{
+        flex: 0 1 50%;
+    }
+    .section2{
+      flex-direction: column;
+      width: 100%;
+      padding: 0 0 0 0;
+    }
+    .hijo1>div{
+        flex: 1 1 30%;
+        
+    }
+    .hijo2{
+        height: auto;
+    }
+    .hijo2>div {
+        flex: 0 0 50%;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    body{
+        font-size: 18px;
+    }
+    header{
+        justify-content: space-between;
+    }
+    header img{
+        top: 0;
+        height: 90px;
+        width: auto;
+    }
+    nav {
+        height: 320px;
+        
+    }
+    ul{
+        width: 100%;
+    
+    }
+    li {
+
+        flex: 1 1 50%;
+      text-align: center;
+    }
+   
+    .titulo{
+        margin-top: 80px;
+        height: auto;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .titulo h1{
+        align-self: center;
+       font-size: 50px;
+    } 
+
+    section img{
+        height: 360px;
+        width: 100%;
+    }
+
+    .elementos{
+        flex: 0 1 100%;
+    }
+    .section2{
+      flex-direction: column;
+      width: 100%;
+      padding: 0 0 0 0;
+    }
+    .hijo1>div{
+        flex: 1 1 100%;
+        
+    }
+
+    .hijo2>div {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 100%;
+    }
+    .hijo2{
+        height: auto;
+    }
+
+}

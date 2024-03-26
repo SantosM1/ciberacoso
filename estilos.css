@@ -1,0 +1,45 @@
+
+body{
+    background-color: black;
+}
+
+.navbar-brand {
+    color: #66e0e9; /* Color del texto del enlace de la marca */
+}
+
+.nav-link {
+    color: #ffffff; /* Color del texto del enlace */
+}
+
+/* Estilos para el carrusel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+    color: #ffffff; /* Color del texto */
+}
+
+/* Estilos para la sección "Acerca de" */
+.about-img img {
+    width: 100%; /* Imagen de ancho completo */
+    height: 50;
+}
+
+.about-tex {
+    margin-top: 20px; /* Margen superior para el texto */
+}
+
+/* Estilos para la sección de "Servicios" */
+.services {
+
+    margin-left: 6%;
+    width: 90%;
+    border-radius: 10px ;
+    background-color: #343a40; /* Fondo de la sección */
+}
+
+.services h2,
+.services p {
+    color: #ffffff; /* Color del texto */
+}
+.img-fluid{
+    width: 25%;
+}
